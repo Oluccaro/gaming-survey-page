@@ -1,0 +1,293 @@
+	html {
+		background-image: url("https://wallpaperboat.com/wp-content/uploads/2020/03/retro-gaming-02.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: center;
+		font-weight: 400;
+		z-index: -1;
+
+	}
+	
+	header {
+		margin-top: 40px;
+	}
+	@font-face {
+    	font-family: 'ArcadeClassic';
+    	font-style: normal;
+    	font-weight: 400;
+    	src: local('ArcadeClassic'), url('https://fonts.cdnfonts.com/s/6071/ARCADECLASSIC.woff') format('woff');
+	}	
+	#title {
+	
+		font-weight: 400;
+		font-family: 'ArcadeClassic', sans-serif;
+		background-color: orangered;
+		opacity: 0.9;
+		margin: auto;
+		width: 720px;		
+		text-align: center;
+	}
+	#description {
+	  color: #000;
+		font-weight: 400;
+		background-color: #BBB;
+		opacity: 0.9;
+		margin: auto;
+		width: 720px;
+		text-align: center;
+		font-size: 18px;
+		font-style: italic;
+
+	}
+	#survey-box {
+		background-color:rgba(80, 80, 80, 0.8);
+		margin: auto;
+		width: 640px;
+		padding: 40px;
+		height: 70%;
+	}
+	#survey-form {
+		
+		font-weight: 400;
+		font-size: 1.25rem;
+		text-align: left;
+		color: white;
+	}
+	.classform {
+		width: 620px;
+		height: 35px;
+		display: block;
+		border-style: solid;
+		border-radius: 5px;
+		border-color: lightgray;
+		font-weight: 400;
+		font-size: 1.25rem;
+		box-sizing: border-box;
+		padding: 6px 12px 6px 12px;
+		border: 1px;
+	}
+	.form-group {
+		padding: 1px;
+		font-weight: 400;
+	}
+	j {
+		font-size: 15px;
+	}
+	option {
+		font-weight: normal;
+		display: block;
+		white-space: nowrap;
+		min-height: 1.2em;
+		padding: 0px 2px 1px;
+
+	}
+	.input-radio {
+		height: 20px;
+		width: 20px;
+		margin: 0px 10px 0px 5px;
+		vertical-align: middle;
+	}
+	.radio-label {
+		margin: 0px;
+		vertical-align: middle;
+	}
+	verttext {
+		vertical-align: middle;
+	}
+	.input-textarea {
+		width: 620px;
+		height: 150px;
+		display: block;
+		border-style: solid;
+		border-radius: 5px;
+		border-color: lightgray;
+		font-weight: 400;
+		font-size: 1.25rem;
+		box-sizing: border-box;
+		padding: 6px 12px 6px 12px;
+		border: 1px;
+		margin-top: 10px;
+
+	}
+	.submit-button {
+		font-family: 'ArcadeClassic', sans-serif;
+		background-color: orangered;
+		color: white;
+		opacity: 1 !important;
+		width: 620px;
+		height: 35px;
+		display: block;
+		border-style: solid;
+		border-radius: 5px;
+		border-color: lightgray;
+		font-weight: 400;
+		font-size: 1.25rem;
+		box-sizing: border-box;
+		padding: 10px 10px 10px 10px;
+		border: 1px;
+		vertical-align: middle !important;
+		margin: 10px 0px 10px 0px;
+	}
+  	.submit-button:hover {
+		font-family: 'ArcadeClassic', sans-serif;
+		background-color: orangered;
+		color: white;
+		border-color: goldenrod;
+		opacity: 1 !important;
+		width: 620px;
+		height: 35px;
+		display: block;
+		border-style: solid;
+		border-radius: 5px;
+		font-weight: 400;
+		font-size: 1.25rem;
+		box-sizing: border-box;
+		padding: 10px 10px 10px 10px;
+		border: 10px;
+		vertical-align: middle !important;
+		margin: 10px 0px 10px 0px;
+		transform:  scale(1.05);
+	}
+
+	/*------------------------------------------------*/
+	/*		THIS IS WHERE MY MEDIA QUERY GOES         */
+	/*------------------------------------------------*/
+	
+	@media screen and (max-width: 720px) {
+		#title {
+		
+			font-weight: 400;
+			font-family: 'ArcadeClassic', sans-serif;
+			background-color: orangered;
+			opacity: 0.9;
+			margin: auto;
+			width: 90%;
+			min-width: 200px;		
+			text-align: center;
+		}
+		#description {
+		
+			font-weight: 400;
+			background-color: #BBB;
+			opacity: 0.7;
+			margin: auto;
+			width: 90%;
+			min-width: 200px;
+			text-align: center;
+			font-size: 18px;
+			font-style: italic;
+
+		}
+		#survey-box {
+			background-color:rgba(80, 80, 80, 0.8);
+			margin: auto;
+			width: 90%;
+			min-width: 200px;
+			padding: 10px;
+			height: 70%;
+		}
+		#survey-form {
+			
+			font-weight: 400;
+			font-size: 1.25rem;
+			text-align: left;
+			color: white;
+		}
+		.classform {
+			width: 90%;
+			height: 25px;
+			display: block;
+			border-style: solid;
+			border-radius: 2px;
+			border-color: lightgray;
+			font-weight: 400;
+			font-size: 1.25rem;
+			box-sizing: border-box;
+			padding: 3px 6px 3px 6px;
+			border: 1px;
+		}
+		.form-group {
+			padding: 1px;
+			font-weight: 400;
+		}
+		j {
+			font-size: 15px;
+		}
+		option {
+			font-weight: normal;
+			display: block;
+			white-space: nowrap;
+			min-height: 1.2em;
+			padding: 0px 2px 1px;
+
+		}
+		.input-radio {
+			height: 10px;
+			width: 10px;
+			margin: 0px 5px 0px 2px;
+			vertical-align: middle;
+		}
+		.radio-label {
+			margin: 0px;
+			vertical-align: middle;
+		}
+		verttext {
+			vertical-align: middle;
+		}
+		.input-textarea {
+			width: 90%;
+			height: 100px;
+			display: block;
+			border-style: solid;
+			border-radius: 3px;
+			border-color: lightgray;
+			font-weight: 400;
+			font-size: 1.25rem;
+			box-sizing: border-box;
+			padding: 3px 6px 3px 6px;
+			border: 1px;
+			margin-top: 10px;
+
+		}
+		.submit-button {
+			font-family: 'ArcadeClassic', sans-serif;
+			background-color: orangered;
+			color: white;
+			opacity: 1 !important;
+			width: 90%;
+			height: 25px;
+			display: block;
+			border-style: solid;
+			border-radius: 5px;
+			border-color: lightgray;
+			font-weight: 400;
+			font-size: 1.25rem;
+			box-sizing: border-box;
+			padding: 5px;
+			border: 1px;
+			vertical-align: middle !important;
+			margin: 10px 0px 10px 0px;
+		}
+    .submit-button:hover {
+			font-family: 'ArcadeClassic', sans-serif;
+			background-color: orangered;
+			color: white;
+			transform: scale(1.05);
+			opacity: 1 !important;
+			width: 90%;
+			height: 25px;
+			display: block;
+			border-style: solid;
+			border-radius: 5px;
+			border-color: lightgray;
+			font-weight: 400;
+			font-size: 1.25rem;
+			box-sizing: border-box;
+			padding: 5px;
+			border: 1px;
+			vertical-align: middle !important;
+			margin: 10px 0px 10px 0px;
+		}
+
+	}
