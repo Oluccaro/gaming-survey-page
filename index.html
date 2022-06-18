@@ -1,0 +1,142 @@
+<!Doctype html>
+<html>
+	<header>
+		<h1 id="title">Do  you  Play  Videogame ?</h1>
+		<p id="description">This survey form aims to get a sense on your gaming preferences</p>	
+	</header>
+	<div id="survey-box">
+		<form id="survey-form" autocomplete="on">
+			<div class="form-group">
+				<label for="name" id="name-label"> Name </label><br>
+				<input class="classform" type="name" id="name" name="name" placeholder="Enter your name" required ><br>
+			</div>
+			<div class="form-group">
+				<label for="email" id="email-label"> Email </label><br>
+				<input class="classform" type="email" id="email" name="email" placeholder="Enter you email" required><br>
+			</div>
+			<div class="form-group">
+				<label for="age" id="number-label">Age <j>(<i>Optional</i>)</j></label><br>
+				<input class="classform" type="number" id="number" name="age" placeholder="Insert your age" min="10" max="100"><br>
+			</div> 
+			<div class="form-group">
+				<p style="margin-bottom: 3px;">How often do you play games?</p>
+				<select class="classform" id="dropdown" name="gamingfrequency" required>
+					<option disabled selected value>Choose one option</option>
+					<option value="veryoften">Very Often</option>
+					<option value="often">Often</option>
+					<option value="sometimes">Sometimes</option>
+					<option value="almostnever">Almost Never</option>
+					<option value="never">Never</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<p style="margin-bottom: 3px;">What is your favorite gaming console company?</p>
+				<label class="radio-label">
+					<input name="company" class="input-radio" type="radio"  value="Microsoft_Xbox" required>
+					<verttext>Microsoft - X-Box</verttext>
+				</label><br>
+				<label class="radio-label">
+					<input name="company" class="input-radio" type="radio"  value="Sony_Playstation">
+					<verttext>Sony - Playstation</verttext>
+				</label><br>
+				<label class="radio-label">
+					<input name="company" class="input-radio" type="radio"  value="Nintendo">
+					<verttext>Nintendo</verttext>
+				</label><br>
+				<label class="radio-label">
+					<input name="company" class="input-radio" type="radio"  value="PC">
+					<verttext>I'm more of a PC Gamer</verttext>
+				</label><br>
+				<label class="radio-label">
+					<input name="company" class="input-radio" type="radio"  value="Cellphone">
+					<verttext>I usually play on my Smart Phone</verttext>
+				</label><br>
+				<label class="radio-label">
+					<input name="company" class="input-radio" type="radio"  value="Other">
+					<verttext>Atari, Sega or Other</verttext>
+				</label><br>
+				<div class="form-group">
+					<p style="margin-bottom: 3px;">Which one of this most popular consoles have you own? <j>(<i>check all that apply</i>)</j></p>
+					<label class="radio-label">
+						<input name="gamingconsole" class="input-radio" type="checkbox" value="Playstation1">
+						Playstation 1
+					</label><br>
+					<label class="radio-label">
+						<input name="gamingconsole" class="input-radio" type="checkbox" value="Playstation2">
+						Playstation 2
+					</label><br>
+					<label class="radio-label">
+						<input name="gamingconsole" class="input-radio" type="checkbox" value="Playstation3">
+						Playstation 3
+					</label><br>
+					<label class="radio-label">
+						<input name="gamingconsole" class="input-radio" type="checkbox" value="Playstation4">
+						Playstation 4
+					</label><br>
+					<label class="radio-label">
+						<input name="gamingconsole" class="input-radio" type="checkbox" value="Playstation5">
+						Playstation 5
+					</label><br>
+					<label class="radio-label">
+						<input name="gamingconsole" class="input-radio" type="checkbox" value="Xbox">
+						Xbox
+					</label><br>
+					<label class="radio-label">
+						<input name="gamingconsole" class="input-radio" type="checkbox" value="Xbox360">
+						Xbox 360
+					</label><br>
+					<label class="radio-label">
+						<input name="gamingconsole" class="input-radio" type="checkbox" value="Xboxone">
+						Xbox One
+					</label><br>
+					<label class="radio-label">
+						<input name="gamingconsole" class="input-radio" type="checkbox" value="Xbox Series (s or x)">
+						Xbox Series
+					</label><br>
+					<label class="radio-label">
+						<input name="gamingconsole" class="input-radio" type="checkbox" value="NES">
+						Nintendo (NES)
+					</label><br>
+					<label class="radio-label">
+						<input name="gamingconsole" class="input-radio" type="checkbox" value="SNES">
+						Super Nintendo (SNES)
+					</label><br>
+					<label class="radio-label">
+						<input name="gamingconsole" class="input-radio" type="checkbox" value="Nintendo wii">
+						Nintendo wii
+					</label><br>
+					<label class="radio-label">
+						<input name="gamingconsole" class="input-radio" type="checkbox" value="Nintendo Switch">
+						Nintendo Switch
+					</label><br>
+					<label class="radio-label">
+						<input name="gamingconsole" class="input-radio" type="checkbox" value="MegaDrive">
+						Mega Drive (I miss sega :/ )
+					</label><br>
+					<label class="radio-label">
+						<input name="gamingconsole" class="input-radio" type="checkbox" value="Atari">
+						Atari (oh boy, I'm getting old)
+					</label><br>
+					<label class="radio-label">
+						<input name="gamingconsole" class="input-radio" type="checkbox" value="PC">
+						PC Master Race \o/
+					</label><br>
+					<label class="radio-label">
+						<input name="gamingconsole" class="input-radio" type="checkbox" value="smartphone">
+						I play on smartphone 
+					</label><br>
+					<label class="radio-label">
+						<input name="gamingconsole" class="input-radio" type="checkbox" value="snakegame">
+						Used to play snakegame on Nokia
+					</label><br>
+					<div class="form-group">
+						<p style="margin-bottom: 3px;"> Any comment or sugestion? Want to share some story?</p>
+						<textarea id="comment" name="comment" class="input-textarea" placeholder="Enter your text here..." maxlength="400"></textarea>
+					</div><br>
+					<div class="form-group">
+						<button type="submit" class="submit-button" id="submit">Submit</button>
+					</div>
+			</div>
+		</form>
+	</div>
+</html>
